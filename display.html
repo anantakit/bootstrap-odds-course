@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <style>
+      /* reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      /* 2. display 
+            -block 1 บรรทัด 
+            -inline  กำหนดขนาดไม่ได้ ขนาดจะตาม content ด้านใน  
+            -inline-block = กำหนดขนาดได้ */
+      .box3 {
+        background-color: brown;
+        border: 3px solid black;
+        box-sizing: content-box;
+        /* contebt box default */
+        display: inline-block;
+        width: 100px;
+      }
+
+      .box4 {
+        background-color: chartreuse;
+        border: 3px solid black;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box3">1</div>
+    <div class="box4">2</div>
+  </body>
+</html>
